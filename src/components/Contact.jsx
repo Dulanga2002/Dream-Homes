@@ -1,4 +1,6 @@
 import React from 'react'
+import { toast } from 'react-toastify';
+
 
 function Contact() {
     const [result, setResult] = React.useState("");
@@ -19,11 +21,11 @@ function Contact() {
 
     if (data.success) {
       setResult("");
-      alert("Form Submitted Successfully");
+      toast.success("Form Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
-      alert(data.message)
+      toast.error(data.message || "Something went wrong");
       setResult("");
     }
   };
