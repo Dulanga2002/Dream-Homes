@@ -21,8 +21,8 @@ function Header() {
           Explore homes that fit your dreams
         </h2>
         <div className="space-x-6 mt-16 ">
-          <a href="#Projects" className="border border-white px-8 py-3 rounded">Projects</a>
-          <a href="#Contatct" className="border border-white px-8 py-3 rounded bg-blue-500">Contact Us</a>
+          <a href="#Projects" className="border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition-colors">Projects</a>
+          <a href="#Contact" className="border border-white px-8 py-3 rounded bg-blue-500 hover:bg-blue-600 transition-colors">Contact Us</a>
         </div>
       </motion.div>
     </div>
