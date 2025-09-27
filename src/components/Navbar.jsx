@@ -23,10 +23,10 @@ const Navbar = () => {
         <img src={assets.logo} alt="" />
         <ul className='hidden md:flex gap-10 text-white '>
          
-            <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a> 
-            <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
-            <a href="#Projects" className='cursor-pointer hover:text-gray-400'>Projects</a>
-            <a href=" #Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
+            <a href="#Header" className='cursor-pointer hover:bg-white hover:text-black px-4 py-2 rounded-full transition-all duration-300'>Home</a> 
+            <a href="#About" className='cursor-pointer hover:bg-white hover:text-black px-4 py-2 rounded-full transition-all duration-300'>About</a>
+            <a href="#Projects" className='cursor-pointer hover:bg-white hover:text-black px-4 py-2 rounded-full transition-all duration-300'>Projects</a>
+            <a href="#Testimonials" className='cursor-pointer hover:bg-white hover:text-black px-4 py-2 rounded-full transition-all duration-300'>Testimonials</a>
           
         </ul>
         <button className='hidden md:block bg-white px-8 py-2 rounded-full cursor-pointer'>Sign up</button>
