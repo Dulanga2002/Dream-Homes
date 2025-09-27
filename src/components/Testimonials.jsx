@@ -16,7 +16,7 @@ const Testimonials= () => {
       <div className='flex flex-wrap justify-center gap-8 '>
            {testimonialsData.map((testimonial,index) =>(
 
-            <div key={index} className='max-w-[340px] shadow-lg border rounded px-8 py-12 text-center'>
+            <div key={index} className='max-w-[340px] shadow-lg border rounded px-8 py-12 text-center hover:scale-110 transition-transform duration-500 ease-in-out cursor-pointer'>
                 <img className='w-20 h-20 rounded-full mx-auto mb-4' src={testimonial.image} alt={testimonial.alt} />
                 <h2 className='text-xl text-gray-700  font-medium'>{testimonial.name}</h2>
                 <p className='text-gray-500 mb-4 text-sm'>{testimonial.title}</p>

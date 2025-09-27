@@ -10,13 +10,14 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className='w-full overflow-hidden'>
-        <ToastContainer/>
+       
         <Header/>
         <About/>
         <Projects/> 
         <Testimonials/>
         <Contact/>
         <Footer/>
+        <ToastContainer/>
     </div>
   )
 }
