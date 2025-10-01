@@ -76,7 +76,7 @@ const prevProject = () => {
                 <img src={project.image} alt={project.title}  className="w-full h-auto hover:scale-110 transition-transform duration-500 ease-in-out cursor-pointer"/>
               </div>
               <div className="absolute left-0 right-0 bottom-5 flex justify-center">
-                <div className="inline-block bg-white w-3/4 px-4 py-2 shadow-md">
+                <div className="inline-block bg-white w-3/4 px-4 py-2 shadow-md hover:shadow-lg hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer">
                   <h2 className="text-xl font-semibold text-gray-800 ">
                     {project.title}
                   </h2>
