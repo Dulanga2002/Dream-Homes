@@ -10,8 +10,8 @@ const Testimonials= () => {
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
       className='container mx-auto py-10 lg:px-32 w-full overflow-hidden' id='Testimonials'>
-      <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Customer <span className='underline underline-offset-4 decoration-1 under font-light'>Testimonials</span></h1>
-      <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto'>Real Stories from Those Who Found Home With Us</p>
+      <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer'>Customer <span className='underline underline-offset-4 decoration-1 under font-light'>Testimonials</span></h1>
+      <p className='text-center text-gray-500 mb-12 max-w-80 mx-auto hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer'>Real Stories from Those Who Found Home With Us</p>
 
       <div className='flex flex-wrap justify-center gap-8 '>
            {testimonialsData.map((testimonial,index) =>(
