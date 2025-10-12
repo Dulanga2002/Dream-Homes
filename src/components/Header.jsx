@@ -17,7 +17,7 @@ function Header() {
       whileInView={{opacity:1,y:0}}
       viewport={{once:true}}
       className="container  text-center mx-auto text-white py-4 px-6 md:px20 lg:px-32">
-        <h2 className="text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20 hover:scale-105 transition-transform duration-300 ease-in-out cursor-pointer">
+        <h2 className="text-5xl sm:text-6xl md:text-[82px] inline-block max-w-3xl font-semibold pt-20">
           Explore homes that fit your dreams
         </h2>
         <div className="space-x-6 mt-16 ">
