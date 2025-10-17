@@ -58,7 +58,7 @@ function Contact() {
                 <textarea className='w-full border border-gray-300 rounded-lg py-3 px-4 h-48 resize-none focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent hover:border-blue-300 transition-all duration-300' rows="5"
                 name="Message" placeholder="Tell us about your dream home..." required ></textarea>
             </div>
-            <button className='bg-gradient-to-r from-blue-600 to-blue-700 text-white py-3 px-12 mb-10 rounded-lg hover:from-blue-700 hover:to-blue-800 hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-xl font-semibold'>{result ? result : "Send Message"}</button>
+            <button className='bg-gradient-to-r from-blue-900 to-blue-700 text-white py-3 px-12 mb-10 rounded-lg hover:from-blue-700 hover:to-blue-800 hover:scale-105 transform transition-all duration-300 shadow-lg hover:shadow-xl font-semibold'>{result ? result : "Send Message"}</button>
          </form>
     </motion.div>
   )
