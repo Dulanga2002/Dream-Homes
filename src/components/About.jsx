@@ -55,17 +55,17 @@ const About = () => {
           <div className="w-full mt-8 mb-8">
             <h3 className="text-2xl font-bold text-gray-800 mb-6">Why Choose Us</h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
+              <div className="bg-white/100 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
                 <div className="text-3xl mb-4">🏠</div>
                 <h4 className="font-semibold text-gray-800 mb-2">Premium Properties</h4>
                 <p className="text-sm text-gray-600">Curated selection of luxury homes and commercial spaces</p>
               </div>
-              <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
+              <div className="bg-white/100 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
                 <div className="text-3xl mb-4">💰</div>
                 <h4 className="font-semibold text-gray-800 mb-2">Best Prices</h4>
                 <p className="text-sm text-gray-600">Competitive pricing with transparent dealings</p>
               </div>
-              <div className="bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
+              <div className="bg-white/100 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer border border-white/20">
                 <div className="text-3xl mb-4">🤝</div>
                 <h4 className="font-semibold text-gray-800 mb-2">Expert Support</h4>
                 <p className="text-sm text-gray-600">24/7 professional guidance and support</p>
