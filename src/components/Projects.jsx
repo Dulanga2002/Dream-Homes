@@ -35,7 +35,7 @@ const prevProject = () => {
       transition={{ duration: 1.5 }}
       whileInView={{ opacity: 1, x: 0 }}
       viewport={{ once: true }}
-      className="container mx-auto py-4 pt-20 md:px20 lg:px-32 my-20 w-full overflow-hidden"
+      className="container mx-auto py-4 pt-20 md:px20 lg:px-32 my-20 w-full overflow-hidden bg-gradient-to-br from-indigo-50 via-blue-50 to-cyan-50 rounded-3xl relative"
       id="Projects"
     >
       <h1 className="text-2xl sm:text-4xl font-bold mb-2 text-center">
