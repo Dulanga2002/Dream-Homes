@@ -73,7 +73,7 @@ function Footer() {
             />
             <button
               type="submit"
-              className="p-3 px-6 rounded-lg bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200"
+              className="p-3 px-6 rounded-lg bg-blue-800 text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-colors duration-200"
               aria-label="Subscribe to newsletter"
             >
               Subscribe
