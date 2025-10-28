@@ -22,7 +22,7 @@ function Header() {
         </h2>
         <div className="space-x-6 mt-16 ">
           <a href="#Projects" className="border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition-colors">Projects</a>
-          <a href="#Contact" className="px-8 py-3 rounded bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 transition-all duration-300 shadow-lg hover:shadow-purple-500/50 hover:scale-105 font-semibold">Contact Us</a>
+          <a href="#Contact" className="px-8 py-3 rounded bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-600 hover:to-blue-800 transition-all duration-300 shadow-lg hover:shadow-blue-500/50 hover:scale-105 font-semibold">Contact Us</a>
         </div>
       </motion.div>
     </div>
