@@ -73,7 +73,7 @@ const About = () => {
             </div>
           </div>
 
-          <button className="bg-blue-600 text-white px-8 py-2 rounded-2xl hover:scale-110 hover:bg-blue-700 transition-all duration-300 ease-in-out cursor-pointer">
+          <button className="px-8 py-2 rounded-2xl text-white bg-gradient-to-r from-sky-500 to-blue-600 hover:from-sky-600 hover:to-blue-700 transition-all duration-300 ease-in-out cursor-pointer shadow-lg hover:shadow-sky-500/30 focus:outline-none focus:ring-2 focus:ring-sky-400">
             Learn more
           </button>
         </div>
